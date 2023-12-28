@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/jokerman');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --color-gradient1:#31718f;
+    --color-gradient2:#DDF1FA;
+    --color-login:#377693;
+    --color-what:#05263E;
+    --color-areyouthinkingabout:#B4BFC6;
+    --color-storiesbg:#3A5E77;
+    --color-bluethirdpart:#DDF1FA;
+    --color-addtoyourstory:#D9D9D9;
+    --color-edityouypersonalinfo:#2E7899;
+    
+}
+@layer base{
+    h3 {
+        @apply text-2xl font-bold;
+    }
+    h2{
+        @apply text-3xl font-bold;
+    }
+    spam{
+        @apply  text-xs font-bold;
+    }
+}
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+@layer components{
+.stroke-text{
+    -webkit-text-stroke:1px black;
+    
+  }
+}

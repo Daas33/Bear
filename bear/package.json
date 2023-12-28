@@ -1,0 +1,22 @@
+{
+  "name": "bear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss ./src/css/style.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "tailwind-scrollbar": "^2.0.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
+  }
+}
